@@ -18,8 +18,7 @@ Dimas Adi Nugroho				19200649
 Gibral Din Averroes			19200886
 
 **************************
-Changelog and New Features
+SCREENSHOOT
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+https://user-images.githubusercontent.com/90830987/144759112-952cf831-acd8-4baa-b15d-cbd7dee8c3c2.png
