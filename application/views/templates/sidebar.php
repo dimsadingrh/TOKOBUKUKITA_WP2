@@ -7,7 +7,7 @@
         <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="selamatdatang">
                 <div class="sidebar-brand-text mx-3">Toko Buku Kita</div>
             </a>
 
