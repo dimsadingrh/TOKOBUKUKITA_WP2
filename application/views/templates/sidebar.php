@@ -7,17 +7,22 @@
         <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="">
                 <div class="sidebar-brand-text mx-3">Toko Buku Kita</div>
             </a>
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
 
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
-            <!-- Nav Item - Dashboard -->
+            <!-- Nav Item - Beranda -->
             <li class="nav-item active">
                 <a class="nav-link" href="<?php echo base_url('index.php/selamatdatang') ?>">
-                    <span>Dashboard</span></a>
+                    <span>Beranda</span></a>
             </li>
 
             <!-- Divider -->
@@ -93,11 +98,6 @@
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-
         </ul>
         <!-- End of Sidebar -->
 
@@ -160,7 +160,7 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li>
                                     <?php
-                                    $keranjang = 'Keranjang: ' .$this->cart->total_items(). ' items' ?>
+                                    $keranjang = 'Keranjang: ' .$this->cart->total_items(). ' buku' ?>
 
                                     <?php echo anchor('index.php/dashboard/detail_keranjang', $keranjang ) ?>
                                 </li>
@@ -170,8 +170,8 @@
 
                                 <ul class="na navbar-nav navbar-right">
                                     <?php if($this->session->userdata('username')) { ?>
-                                        <li><div>Welcome <?php echo $this->session->userdata('username') ?></div></li>
-                                        <li class="ml-2"><?php echo anchor('index.php/autentifikasi/logout', 'Logout') ?></li>
+                                        <li><div>Hai, <?php echo $this->session->userdata('username') ?></div></li>
+                                        <li class="ml-2"><?php echo anchor('index.php/autentifikasi/logout', 'Keluar') ?></li>
                                     <?php } else { ?>
                                         <li><?php echo anchor('index.php/autentifikasi/login', 'Login'); ?></li>
                                     <?php } ?>

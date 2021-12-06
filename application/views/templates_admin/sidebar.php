@@ -11,13 +11,18 @@
                 <div class="sidebar-brand-text mx-3">ADMIN</div>
             </a>
 
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="<?php echo base_url('index.php/admin/Dashboardadmin') ?>">
-                    <span>Dashboard</span></a>
+                    <span>Beranda</span></a>
             </li>
 
             <hr class="sidebar-divider">
@@ -35,11 +40,6 @@
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
-
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
 
         </ul>
         <!-- End of Sidebar -->
