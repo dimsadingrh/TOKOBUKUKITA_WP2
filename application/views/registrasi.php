@@ -39,7 +39,10 @@
                             <hr>
                            
                             <div class="text-center">
-                                <a class="small" href="<?php echo base_url('index.php/autentifikasi/login') ?>">Sudah Punya Akun? Silahkan Login!</a>
+                                <a class="small" href="<?php echo base_url('autentifikasi/login') ?>">Sudah Punya Akun? Silahkan Login!</a>
+                            </div>
+                            <div class="text-center">
+                                <a class="small" href="<?php echo base_url('selamatdatang') ?>"><- Kembali Ke Beranda</a>
                             </div>
                         </div>
                     </div>

@@ -38,6 +38,9 @@
                                     <div class="text-center">
                                         <a class="small" href="<?php echo base_url('index.php/registrasi/index') ?>">Belum Punya Akun? Daftar!</a>
                                     </div>
+                                    <div class="text-center">
+                                        <a class="small" href="<?php echo base_url('index.php/selamatdatang') ?>"><- Kembali Ke Halaman Beranda</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
