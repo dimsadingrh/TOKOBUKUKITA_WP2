@@ -160,9 +160,9 @@
                                 <ul class="na navbar-nav navbar-right">
                                     <?php if($this->session->userdata('username')) { ?>
                                         <li><div>Hai, <?php echo $this->session->userdata('username') ?></div></li>
-                                        <li class="ml-2"><?php echo anchor('index.php/autentifikasi/logout', '<button type="button" class="btn btn-primary btn-sm">Keluar</button>') ?></li>
+                                        <li class="ml-2"><?php echo anchor('autentifikasi/logout', '<button type="button" class="btn btn-primary btn-sm">Keluar</button>') ?></li>
                                     <?php } else { ?>
-                                        <li><?php echo anchor('index.php/autentifikasi/login', '<button type="button" class="btn btn-primary btn-sm">Login</button>'); ?></li>
+                                        <li><?php echo anchor('autentifikasi/login', '<button type="button" class="btn btn-primary btn-sm">Login</button>'); ?></li>
                                     <?php } ?>
 
                                 </ul>
