@@ -8,6 +8,9 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('selamatdatang') ?>">
+                <div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-book"></i>
+                </div>
                 <div class="sidebar-brand-text mx-3">Toko Buku Kita</div>
             </a>
 
