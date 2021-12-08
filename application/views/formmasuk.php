@@ -36,10 +36,11 @@
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="<?php echo base_url('index.php/registrasi/index') ?>">Belum Punya Akun? Daftar!</a>
+                                        <a class="small" href="<?php echo base_url('index.php/registrasi/index') ?>"><button type="button" class="btn btn-primary ">Belum punya akun? silahkan daftar!</button></a>
                                     </div>
+                                    <br>
                                     <div class="text-center">
-                                        <a class="small" href="<?php echo base_url('index.php/selamatdatang') ?>"><- Kembali Ke Halaman Beranda</a>
+                                        <a class="small" href="<?php echo base_url('index.php/selamatdatang') ?>"><button type="button" class="btn btn-dark btn-sm">Kembali ke beranda</button></a>
                                     </div>
                                 </div>
                             </div>

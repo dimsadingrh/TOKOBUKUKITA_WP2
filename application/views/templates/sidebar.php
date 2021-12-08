@@ -8,7 +8,7 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('selamatdatang') ?>">
-                <div class="sidebar-brand-icon rotate-n-15">
+                <div class="sidebar-brand-icon rotate-n-0">
                     <i class="fas fa-book"></i>
                 </div>
                 <div class="sidebar-brand-text mx-3">Toko Buku Kita</div>
@@ -160,9 +160,9 @@
                                 <ul class="na navbar-nav navbar-right">
                                     <?php if($this->session->userdata('username')) { ?>
                                         <li><div>Hai, <?php echo $this->session->userdata('username') ?></div></li>
-                                        <li class="ml-2"><?php echo anchor('index.php/autentifikasi/logout', 'Keluar') ?></li>
+                                        <li class="ml-2"><?php echo anchor('index.php/autentifikasi/logout', '<button type="button" class="btn btn-primary btn-sm">Keluar</button>') ?></li>
                                     <?php } else { ?>
-                                        <li><?php echo anchor('index.php/autentifikasi/login', '<button type="button" class="btn btn-primary">Login</button>'); ?></li>
+                                        <li><?php echo anchor('index.php/autentifikasi/login', '<button type="button" class="btn btn-primary btn-sm">Login</button>'); ?></li>
                                     <?php } ?>
 
                                 </ul>

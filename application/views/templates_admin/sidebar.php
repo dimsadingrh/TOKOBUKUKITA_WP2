@@ -8,7 +8,10 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-text mx-3">ADMIN</div>
+                <div class="sidebar-brand-icon rotate-n-0">
+                    <i class="fas fa-book"></i>
+                </div>
+            <div class="sidebar-brand-text mx-3">ADMIN</div>
             </a>
 
             <!-- Sidebar Toggler (Sidebar) -->
@@ -58,20 +61,6 @@
                         <i class="fa fa-bars"></i>
                     </button>
 
-                    <!-- Topbar Search -->
-                    <form
-                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..."
-                                aria-label="Search" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                <button class="btn btn-info" type="button">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
 
@@ -103,10 +92,10 @@
 
                         <ul class="na navbar-nav navbar-right">
                             <?php if($this->session->userdata('username')) { ?>
-                                <li><div>Selamat Datang <?php echo $this->session->userdata('username') ?></div></li>
-                                <li class="ml-2"><?php echo anchor('index.php/autentifikasi/logout', 'Logout') ?></li>
+                                <li><div>Hai, <?php echo $this->session->userdata('username') ?></div></li>
+                                <li class="ml-2"><?php echo anchor('index.php/autentifikasi/logout', '<button type="button" class="btn btn-primary btn-sm">Keluar</button>') ?></li>
                             <?php } else { ?>
-                                <li><?php echo anchor('index.php/autentifikasi/login', 'Login'); ?></li>
+                                <li><?php echo anchor('index.php/autentifikasi/login', '<button type="button" class="btn btn-primary btn-sm">Login</button>'); ?></li>
                             <?php } ?>
 
                         </ul>

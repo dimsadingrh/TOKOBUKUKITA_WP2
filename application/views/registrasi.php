@@ -39,10 +39,11 @@
                             <hr>
                            
                             <div class="text-center">
-                                <a class="small" href="<?php echo base_url('autentifikasi/login') ?>">Sudah Punya Akun? Silahkan Login!</a>
+                                <a class="small" href="<?php echo base_url('autentifikasi/login') ?>"><button type="button" class="btn btn-primary ">Sudah punya akun? silahkan login kembali!</button></a>
                             </div>
+                            <br>
                             <div class="text-center">
-                                <a class="small" href="<?php echo base_url('selamatdatang') ?>"><- Kembali Ke Beranda</a>
+                                <a class="small" href="<?php echo base_url('selamatdatang') ?>"><button type="button" class="btn btn-dark btn-sm">Kembali ke beranda</button></a>
                             </div>
                         </div>
                     </div>
