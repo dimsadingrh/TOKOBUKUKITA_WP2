@@ -8,7 +8,7 @@ class Dashboard extends CI_Controller{
         if($this->session->userdata('role_id') != '2'){
             $this->session->set_flashdata('pesan','<div class="alert alert-warning alert-dismissible fade show" role="alert">Anda Belum Login!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>');
-            redirect('index.php/autentifikasi/login');
+            redirect('autentifikasi/login');
         }
 
     }
