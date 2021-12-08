@@ -7,7 +7,7 @@
         <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="selamatdatang">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('selamatdatang') ?>">
                 <div class="sidebar-brand-text mx-3">Toko Buku Kita</div>
             </a>
 
@@ -21,7 +21,7 @@
 
             <!-- Nav Item - Beranda -->
             <li class="nav-item active">
-                <a class="nav-link" href="<?php echo base_url('index.php/selamatdatang') ?>">
+                <a class="nav-link" href="<?php echo base_url('selamatdatang') ?>">
                     <span>Beranda</span></a>
             </li>
 
@@ -36,62 +36,62 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/antropologi') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/antropologi') ?>">
                     <span>Antropologi</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/astronomi') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/astronomi') ?>">
                     <span>Astronomi</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/biografi') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/biografi') ?>">
                     <span>Biografi</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/bisnis') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/bisnis') ?>">
                     <span>Bisnis</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/ekonomi') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/ekonomi') ?>">
                     <span>Ekonomi</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/etika') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/etika') ?>">
                     <span>Etika</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/filsafat') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/filsafat') ?>">
                     <span>Filsafat</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/komputer') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/komputer') ?>">
                     <span>Komputer</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/masak') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/masak') ?>">
                     <span>Masak</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/medis') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/medis') ?>">
                     <span>Medis</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/musik') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/musik') ?>">
                     <span>Musik</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/kategori/pemasaran') ?>">
+                <a class="nav-link" href="<?php echo base_url('kategori/pemasaran') ?>">
                     <span>Pemasaran</span></a>
             </li>
 
