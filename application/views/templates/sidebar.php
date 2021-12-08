@@ -149,7 +149,7 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li>
                                     <?php
-                                    $keranjang = 'Keranjang: ' .$this->cart->total_items(). ' buku' ?>
+                                    $keranjang = '<button type="button" class="btn btn-link">Keranjang</button>' .$this->cart->total_items(). '' ?>
 
                                     <?php echo anchor('index.php/dashboard/detail_keranjang', $keranjang ) ?>
                                 </li>
@@ -162,7 +162,7 @@
                                         <li><div>Hai, <?php echo $this->session->userdata('username') ?></div></li>
                                         <li class="ml-2"><?php echo anchor('index.php/autentifikasi/logout', 'Keluar') ?></li>
                                     <?php } else { ?>
-                                        <li><?php echo anchor('index.php/autentifikasi/login', 'Login'); ?></li>
+                                        <li><?php echo anchor('index.php/autentifikasi/login', '<button type="button" class="btn btn-primary">Login</button>'); ?></li>
                                     <?php } ?>
 
                                 </ul>
