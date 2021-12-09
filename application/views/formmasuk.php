@@ -19,7 +19,7 @@
 
                                     <?php echo $this->session->flashdata('pesan') ?>
 
-                                    <form method="post" action="<?php echo base_url('index.php/autentifikasi/login') ?>"class="user">
+                                    <form method="post" action="<?php echo base_url('autentifikasi/login') ?>"class="user">
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"
@@ -36,11 +36,11 @@
                                     </form>
                                     <hr>
                                     <div class="text-center">
-                                        <a class="small" href="<?php echo base_url('index.php/registrasi/index') ?>"><button type="button" class="btn btn-primary ">Belum punya akun? silahkan daftar!</button></a>
+                                        <a class="small" href="<?php echo base_url('registrasi/index') ?>"><button type="button" class="btn btn-primary ">Belum punya akun? silahkan daftar!</button></a>
                                     </div>
                                     <br>
                                     <div class="text-center">
-                                        <a class="small" href="<?php echo base_url('index.php/selamatdatang') ?>"><button type="button" class="btn btn-dark btn-sm">Kembali ke beranda</button></a>
+                                        <a class="small" href="<?php echo base_url('selamatdatang') ?>"><button type="button" class="btn btn-dark btn-sm">Kembali ke beranda</button></a>
                                     </div>
                                 </div>
                             </div>

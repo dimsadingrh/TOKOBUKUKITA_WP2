@@ -151,7 +151,7 @@
                                     <?php
                                     $keranjang = '<button type="button" class="btn btn-link">Keranjang</button>' .$this->cart->total_items(). '' ?>
 
-                                    <?php echo anchor('index.php/dashboard/detail_keranjang', $keranjang ) ?>
+                                    <?php echo anchor('dashboard/detail_keranjang', $keranjang ) ?>
                                 </li>
                             </ul>
 

@@ -50,13 +50,20 @@
                 <div class="form-group">
                     <label>Pilih Bank</label>
                     <select class="form-control">
-                        <option>BNI - 3XXXXX4</option>
-                        <option>BRI - 4XXXXX5</option>
-                        <option>MANDIRI - 5XXXXX6</option>
-                        <option>BCA - 2XXXXX3</option>
-                        <option>BSI - 6XXXXX7</option>
-                        <option>MUAMALAT - 7XXXXX8</option>
+                        <option>BNI</option>
+                        <option>BRI</option>
+                        <option>MANDIRI</option>
+                        <option>BCA</option>
+                        <option>BSI</option>
+                        <option>MUAMALAT</option>
                     </select>
+                </div>
+                
+                <br>
+                <small>*Optional</small>
+                <div class="form-group">
+                    <label>Masukan Voucher</label>
+                    <input type="text" name="no_telp" placeholder="Masukan Voucher Jika Ada" class="form-control">
                 </div>
 
                 <button type="submit" class="btn btn-sm btn-success mb-3">PESAN</button>
