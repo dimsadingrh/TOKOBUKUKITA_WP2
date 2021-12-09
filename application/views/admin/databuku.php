@@ -27,8 +27,8 @@
             <td><?php echo $bk->tahun_terbit ?></td>
             <td><?php echo $bk->stok ?></td>
             <td><?php echo $bk->harga ?></td>
-            <td><?php echo anchor('index.php/admin/databuku/edit/' .$bk->id_buku, '<div class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></div>') ?></td>
-            <td><?php echo anchor('index.php/admin/databuku/hapus/' .$bk->id_buku, '<div class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></div>') ?></td>
+            <td><?php echo anchor('admin/databuku/edit/' .$bk->id_buku, '<div class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></div>') ?></td>
+            <td><?php echo anchor('admin/databuku/hapus/' .$bk->id_buku, '<div class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></div>') ?></td>
         </tr>
 
         <?php endforeach ?>
