@@ -24,7 +24,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="<?php echo base_url('index.php/admin/Dashboardadmin') ?>">
+                <a class="nav-link" href="<?php echo base_url('admin/Dashboardadmin') ?>">
                     <span>Beranda</span></a>
             </li>
 
@@ -32,12 +32,12 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/admin/databuku') ?>">
+                <a class="nav-link" href="<?php echo base_url('admin/databuku') ?>">
                     <span>Data Buku</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('index.php/admin/pesanan') ?>">
+                <a class="nav-link" href="<?php echo base_url('admin/pesanan') ?>">
                     <span>Invoices</span></a>
             </li>
 

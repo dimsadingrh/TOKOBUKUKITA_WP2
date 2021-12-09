@@ -94,13 +94,13 @@ class DataBuku extends CI_Controller{
         );
 
         $this->ModelBuku->update_buku($where,$data, 'buku');
-        redirect('index.php/admin/databuku/index');
+        redirect('admin/databuku/index');
     }
 
     public function hapus ($id_buku)
     {
         $where = array('id_buku' => $id_buku);
         $this->ModelBuku->hapus_buku($where, 'buku');
-        redirect('index.php/admin/databuku/index');
+        redirect('admin/databuku/index');
     }
 }

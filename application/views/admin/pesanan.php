@@ -4,7 +4,7 @@
     <table class="table table-bordered table-hover table-striped">
         <tr>
             <th>Id Invoice</th>
-            <th>Nama Pesanan</th>
+            <th>Nama Pemesan</th>
             <th>Alamat Pengiriman</th>
             <th>Tanggal Pemesanan</th>
             <th>Batas Pembayaran</th>
