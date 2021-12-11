@@ -48,8 +48,8 @@
                        </tr>
                     </table>
 
-                    <?php echo anchor('index.php/dashboard/tambah_ke_keranjang/'. $bk->id_buku,'<div class="btn btn-sm btn-primary">Masukan ke Keranjang</div>') ?>
-                    <?php echo anchor('index.php/selamatdatang','<div class="btn btn-sm btn-info">Kembali</div>') ?>
+                    <?php echo anchor('dashboard/tambah_ke_keranjang/'. $bk->id_buku,'<div class="btn btn-sm btn-primary">Masukan ke Keranjang</div>') ?>
+                    <?php echo anchor('selamatdatang','<div class="btn btn-sm btn-info">Kembali</div>') ?>
 
                 </div>
             </div>
