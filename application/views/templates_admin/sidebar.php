@@ -11,7 +11,7 @@
                 <div class="sidebar-brand-icon rotate-n-0">
                     <i class="fas fa-book"></i>
                 </div>
-            <div class="sidebar-brand-text mx-3">ADMIN</div>
+            <div class="sidebar-brand-text mx-3">ADMIN TOKO BUKU KITA</div>
             </a>
 
             <!-- Sidebar Toggler (Sidebar) -->
