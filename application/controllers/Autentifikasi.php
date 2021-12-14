@@ -22,15 +22,15 @@ class Autentifikasi extends CI_Controller{
             {
                 $this->session->set_flashdata('pesan','<div class="alert alert-warning alert-dismissible fade show" role="alert">Username atau Password Salah!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>');
-                redirect('index.php/autentifikasi/login');
+                redirect('autentifikasi/login');
             } else {
                 $this->session->set_userdata('username',$auth->username);
                 $this->session->set_userdata('role_id',$auth->role_id);
 
                 switch($auth->role_id){
-                    case 1 :    redirect('index.php/admin/dashboardadmin');
+                    case 1 :    redirect('admin/dashboardadmin');
                                 break;
-                    case 2 :    redirect('index.php/selamatdatang');
+                    case 2 :    redirect('selamatdatang');
                                 break;
                     default: break;
                 }
@@ -41,6 +41,6 @@ class Autentifikasi extends CI_Controller{
     public function logout()
     {
         $this->session->sess_destroy();
-        redirect('index.php/autentifikasi/login');
+        redirect('autentifikasi/login');
     }
 }
