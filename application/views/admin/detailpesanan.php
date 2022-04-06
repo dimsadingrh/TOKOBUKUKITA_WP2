@@ -29,8 +29,8 @@
         <?php endforeach; ?>
 
         <tr>
-            <td colspan="4" align="right">Grand Total</td>
-            <td align="right">Rp. <?php echo number_format($total,0,',','.') ?></td>
+            <td colspan="4" align="right">Harga Total : </td>
+            <td align="left">Rp. <?php echo number_format($total,0,',','.') ?></td>
         </tr>
 
     </table>
